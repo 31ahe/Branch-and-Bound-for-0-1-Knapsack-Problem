@@ -12,6 +12,19 @@
         <h2>Introduction</h2>
         <p>This project implements the Branch and Bound algorithm to solve the 0/1 Knapsack Problem, a classic optimization problem in computer science.</p>
 
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#usage">Usage</a></li>
+            <li><a href="#example">Example</a></li>
+            <li><a href="#requirements">Requirements</a></li>
+            <li><a href="#license">License</a></li>
+        </ul>
+
+        <h2>Introduction</h2>
+        <p>This project implements the Branch and Bound algorithm to solve the 0/1 Knapsack Problem, a classic optimization problem in computer science.</p>
+
         <h2>Features</h2>
         <ul>
             <li>Branch and Bound algorithm implementation</li>
@@ -30,6 +43,16 @@
 
         <h3>Example usage:</h3>
         <pre><code>python knapsack_branch_and_bound.py</code></pre>
+
+        <h2>Example</h2>
+        <pre><code>weights = [2, 5, 10, 4]
+values = [40, 30, 50, 10]
+capacity = 16
+
+result = knapsack_branch_and_bound(weights, values, capacity)
+print("Max Profit:", result[0])
+print("Best Set of Items:", result[1])
+</code></pre>
 
         <h2>Requirements</h2>
         <ul>
