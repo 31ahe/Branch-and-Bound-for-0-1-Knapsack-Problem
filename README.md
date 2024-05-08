@@ -4,28 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Branch and Bound for 0/1 Knapsack Problem</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-        }
-        h1, h2, h3, h4, h5, h6 {
-            margin-top: 0;
-        }
-        code {
-            background-color: #f4f4f4;
-            padding: 4px 8px;
-            border-radius: 4px;
-        }
-    </style>
 </head>
 <body>
-    <div class="container">
+    <div>
         <h1>Branch and Bound for 0/1 Knapsack Problem</h1>
 
         <h2>Introduction</h2>
@@ -37,6 +18,22 @@
             <li>Calculation of bounds to prune branches</li>
             <li>Max-heap priority queue for efficient exploration</li>
             <li>Example usage and demonstration</li>
+        </ul>
+
+        <h2>Usage</h2>
+        <ol>
+            <li>Install Python if not already installed.</li>
+            <li>Clone this repository to your local machine.</li>
+            <li>Navigate to the project directory.</li>
+            <li>Run the <code>knapsack_branch_and_bound.py</code> script, providing the weights, values, and capacity as input.</li>
+        </ol>
+
+        <h3>Example usage:</h3>
+        <pre><code>python knapsack_branch_and_bound.py</code></pre>
+
+        <h2>Requirements</h2>
+        <ul>
+            <li>Python 3.x</li>
         </ul>
 
         <h2>License</h2>
